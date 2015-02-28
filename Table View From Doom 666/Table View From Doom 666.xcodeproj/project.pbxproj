@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB5135C91A9E870D0086CEA2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5135C81A9E870D0086CEA2 /* MainViewController.m */; };
 		EB6A32971A9E423F00A941EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6A32961A9E423F00A941EB /* main.m */; };
 		EB6A329A1A9E423F00A941EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6A32991A9E423F00A941EB /* AppDelegate.m */; };
 		EB6A32A01A9E423F00A941EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6A329E1A9E423F00A941EB /* Main.storyboard */; };
@@ -15,8 +16,6 @@
 		EB6A32B11A9E423F00A941EB /* Table_View_From_Doom_666Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6A32B01A9E423F00A941EB /* Table_View_From_Doom_666Tests.m */; };
 		EB6A32C21A9E475600A941EB /* Aplicativo.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6A32C11A9E475600A941EB /* Aplicativo.m */; };
 		EB6A32C51A9E4ADB00A941EB /* Categoria.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6A32C41A9E4ADB00A941EB /* Categoria.m */; };
-		EB6A32CA1A9E615C00A941EB /* 44x44.png in Resources */ = {isa = PBXBuildFile; fileRef = EB6A32C91A9E615C00A941EB /* 44x44.png */; };
-		EB6A32D01A9E66E300A941EB /* AppTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6A32CF1A9E66E300A941EB /* AppTableViewController.m */; };
 		EB6A32D31A9E67FF00A941EB /* AppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6A32D21A9E67FF00A941EB /* AppTableViewCell.m */; };
 		EB6A32D61A9E6D4400A941EB /* DetalhesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6A32D51A9E6D4400A941EB /* DetalhesViewController.m */; };
 /* End PBXBuildFile section */
@@ -32,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB5135C71A9E870D0086CEA2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EB5135C81A9E870D0086CEA2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		EB6A32911A9E423F00A941EB /* Table View From Doom 666.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table View From Doom 666.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6A32951A9E423F00A941EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB6A32961A9E423F00A941EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,9 +48,6 @@
 		EB6A32C11A9E475600A941EB /* Aplicativo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aplicativo.m; sourceTree = "<group>"; };
 		EB6A32C31A9E4ADB00A941EB /* Categoria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categoria.h; sourceTree = "<group>"; };
 		EB6A32C41A9E4ADB00A941EB /* Categoria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categoria.m; sourceTree = "<group>"; };
-		EB6A32C91A9E615C00A941EB /* 44x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 44x44.png; path = ../../../../../../Desktop/44x44.png; sourceTree = "<group>"; };
-		EB6A32CE1A9E66E300A941EB /* AppTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTableViewController.h; sourceTree = "<group>"; };
-		EB6A32CF1A9E66E300A941EB /* AppTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTableViewController.m; sourceTree = "<group>"; };
 		EB6A32D11A9E67FF00A941EB /* AppTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTableViewCell.h; sourceTree = "<group>"; };
 		EB6A32D21A9E67FF00A941EB /* AppTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTableViewCell.m; sourceTree = "<group>"; };
 		EB6A32D41A9E6D4400A941EB /* DetalhesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalhesViewController.h; sourceTree = "<group>"; };
@@ -105,13 +103,12 @@
 				EB6A32C11A9E475600A941EB /* Aplicativo.m */,
 				EB6A32C31A9E4ADB00A941EB /* Categoria.h */,
 				EB6A32C41A9E4ADB00A941EB /* Categoria.m */,
-				EB6A32C91A9E615C00A941EB /* 44x44.png */,
-				EB6A32CE1A9E66E300A941EB /* AppTableViewController.h */,
-				EB6A32CF1A9E66E300A941EB /* AppTableViewController.m */,
 				EB6A32D11A9E67FF00A941EB /* AppTableViewCell.h */,
 				EB6A32D21A9E67FF00A941EB /* AppTableViewCell.m */,
 				EB6A32D41A9E6D4400A941EB /* DetalhesViewController.h */,
 				EB6A32D51A9E6D4400A941EB /* DetalhesViewController.m */,
+				EB5135C71A9E870D0086CEA2 /* MainViewController.h */,
+				EB5135C81A9E870D0086CEA2 /* MainViewController.m */,
 			);
 			path = "Table View From Doom 666";
 			sourceTree = "<group>";
@@ -222,7 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB6A32CA1A9E615C00A941EB /* 44x44.png in Resources */,
 				EB6A32A01A9E423F00A941EB /* Main.storyboard in Resources */,
 				EB6A32A51A9E423F00A941EB /* LaunchScreen.xib in Resources */,
 				EB6A32A21A9E423F00A941EB /* Images.xcassets in Resources */,
@@ -243,9 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB6A32D01A9E66E300A941EB /* AppTableViewController.m in Sources */,
 				EB6A329A1A9E423F00A941EB /* AppDelegate.m in Sources */,
 				EB6A32971A9E423F00A941EB /* main.m in Sources */,
+				EB5135C91A9E870D0086CEA2 /* MainViewController.m in Sources */,
 				EB6A32D31A9E67FF00A941EB /* AppTableViewCell.m in Sources */,
 				EB6A32C51A9E4ADB00A941EB /* Categoria.m in Sources */,
 				EB6A32C21A9E475600A941EB /* Aplicativo.m in Sources */,
@@ -442,6 +438,7 @@
 				EB6A32B61A9E423F00A941EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB6A32B71A9E423F00A941EB /* Build configuration list for PBXNativeTarget "Table View From Doom 666Tests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +447,7 @@
 				EB6A32B91A9E423F00A941EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

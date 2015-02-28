@@ -14,8 +14,6 @@
 
 @implementation DetalhesViewController
 
-
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     _nome.text = _arr[0];
@@ -23,7 +21,6 @@
     _imagem.image = [UIImage imageNamed:_arr[2]];
     
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

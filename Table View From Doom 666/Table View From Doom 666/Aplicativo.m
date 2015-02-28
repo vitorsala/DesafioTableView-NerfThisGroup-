@@ -10,18 +10,14 @@
 
 @implementation Aplicativo
 
-
 -(id) initWithName:(NSString *)n Categoria:(Categoria *)c Imagem: (NSString *)i{
     self = [super init];
-
     if(self){
         _categoria = c;
         _nome = n;
         _imagem = i;
     }
-
     return self;
-
 }
 
 
